@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "mobile_project",
-    "slug": "mobile_project",
+    "slug": "project",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -46,9 +46,9 @@
         "origin": false
       },
       "eas": {
-        "projectId": "c37e20c4-37ff-40e9-a375-fb4ee431d712"
+        "projectId": "e9c79d63-5517-4d14-a59b-cc8e4ad5d711"
       }
     },
-    "owner": "artkondratenko"
+    "owner": "alexander234"
   }
 }

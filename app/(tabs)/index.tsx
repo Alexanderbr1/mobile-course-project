@@ -43,7 +43,8 @@ const CalculatorScreen = () => {
     const backValue = parseFloat(back) || 0;
 
     // Расчет A: сумма всех введенных значений
-    const total = (headNeck*9 + genital + leftArmValue*9 + rightArmValue*9 + leftLegValue*18 + rightLegValue*18 + chestAbdomen*18 + backValue*18)/100;
+    const total = (headNeck*9 + genital + leftArmValue*9 + rightArmValue*9 +
+        leftLegValue*18 + rightLegValue*18 + chestAbdomen*18 + backValue*18)/100;
     setA(total);  // Обновление значения A
   };
 
@@ -57,7 +58,8 @@ const CalculatorScreen = () => {
     const drynessValue = parseInt(dryness) || 0;
 
     // Рассчитываем B
-    const totalI = erythemaValue + edemaValue + crustsValue + excoriationsValue + lichenificationValue + drynessValue;
+    const totalI = erythemaValue + edemaValue + crustsValue + excoriationsValue
+        + lichenificationValue + drynessValue;
     setB(totalI);  // Обновляем значение B
   };
 
